@@ -1,0 +1,102 @@
+/* basestyles */
+
+body{
+	background-color: white;
+	font-family: comic-sans;
+}
+
+h1 {
+	color: black;
+	text-align: center;
+	font-size: 130%;
+}
+
+h2 {
+	color: white;
+	text-align: center;
+	font-size: 130%;
+}
+
+h3 {
+	color: black;
+	text-align: left;
+	font-size: 130%;
+}
+
+
+div {
+  width: 300px;
+  border: 2px solid black;
+  padding: 50px;
+  margin: 20px;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+    padding: 0;
+}
+
+#box {
+  background-color: grey;
+  padding: 10px;
+  border: 2px solid black;
+  width:  300px;
+  height: 50px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  overflow: auto;
+}
+
+#content {
+
+	background-color: green;
+}
+
+
+
+/* Desktop version 992px and above 
+*/
+
+@media (min-width: 992px) {
+	#p1 {
+		width: 80%;
+	}
+
+	#p2 { 
+		width: 150px;
+		height: 150px;
+	 }	
+	
+}
+
+/*Tablet version between 768px and 991px inclusively
+*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #p1 {
+  	width: 50%;
+
+  }
+  #p2 {
+  	width: 100px;
+  	height:100px;
+
+  }
+
+}
+
+/*Mobile version equal or less than 767px
+*/
+
+@media (min-width: 992px) {
+	#p1 {
+		width: 80%;
+	}
+
+	#p2 { 
+		width: 150px;
+		height: 150px;
+	 }	
+	
+}
