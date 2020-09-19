@@ -1,12 +1,12 @@
 /* basestyles */
 
 body{
-	background-color: white;
+	background-color: pink;
 	font-family: comic-sans;
 }
 
 h1 {
-	color: black;
+	color: red;
 	text-align: center;
 	font-size: 130%;
 }
@@ -18,18 +18,11 @@ h2 {
 }
 
 h3 {
-	color: black;
+	color: red;
 	text-align: left;
 	font-size: 130%;
 }
 
-
-div {
-  width: 300px;
-  border: 2px solid black;
-  padding: 50px;
-  margin: 20px;
-}
 
 * {
 	box-sizing: border-box;
@@ -49,7 +42,6 @@ div {
 }
 
 #content {
-
 	background-color: green;
 }
 
