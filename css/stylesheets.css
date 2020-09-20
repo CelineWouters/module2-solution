@@ -39,7 +39,7 @@ h3 {
   background-color: grey;
   padding:30px 10px 10px 10px;
   border: 2px solid black;
-  margin: 5px 5px 5px 5px;
+  margin: 10px 10px 10px 10px;
   float: left;
 }
 
@@ -90,8 +90,6 @@ h3 {
 
 
 
-
-
 /* Desktop version 992px and above 
 */
 
@@ -131,7 +129,7 @@ h3 {
 	}
 
 	#container3 {
-	width: 90%;
+	width: 92%;
 	clear:both;
 	}
   
@@ -144,16 +142,16 @@ h3 {
 @media (max-width: 767px) {
 	
 	#container1 {
-	width: 100%;
+	width: 98%;
 	clear:both;
 	}
 
 	#container2 {
-	width: 100%;
+	width: 98%;
 	clear:both;
 	}
 
 	#container3 {
-	width: 100%;
+	width: 98%;
 	clear:both;
 	}
