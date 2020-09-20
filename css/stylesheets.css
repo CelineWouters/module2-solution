@@ -1,28 +1,11 @@
 /* basestyles */
 
 body{
-	background-color: pink;
 	font-family: comic-sans;
-}
-
-h1 {
-	color: red;
-	text-align: center;
-	font-size: 130%;
-}
-
-h2 {
-	color: white;
-	text-align: center;
-	font-size: 130%;
-}
-
-h3 {
-	color: red;
+	color: black;
 	text-align: left;
-	font-size: 130%;
+	margin: 10px;
 }
-
 
 * {
 	box-sizing: border-box;
@@ -30,20 +13,82 @@ h3 {
     padding: 0;
 }
 
-#box {
-  background-color: grey;
-  padding: 10px;
-  border: 2px solid black;
-  width:  300px;
-  height: 50px;
-  box-sizing: border-box;
-  margin-top: 20px;
-  overflow: auto;
+h1 {
+	color: black;
+	text-align: center;
+	font-size: 190%;
+	margin-bottom: 30px;
+	margin-top: 30px;
 }
 
-#content {
-	background-color: green;
+h2 {
+	color: black;
+	text-align: center;
+	font-size: 110%;
 }
+
+h3 {
+	color: white;
+	text-align: center;
+	font-size: 110%;
+}
+
+
+.container {
+  position: relative;
+  background-color: grey;
+  padding:30px 10px 10px 10px;
+  border: 2px solid black;
+  margin: 5px 5px 5px 5px;
+  float: left;
+}
+
+
+#container1 {
+	width: 30%;
+}
+
+#container2 {
+	width: 30%;
+}
+
+#container3 {
+	width: 30%;
+}
+
+
+
+.topright1 {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border: 2px solid black;
+  margin:-2px;
+  width: 30%;
+  background-color:pink;
+}
+
+.topright2 {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border: 2px solid black;
+  margin:-2px;
+  width: 30%;
+  background-color:red;
+}
+
+.topright3 {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border: 2px solid black;
+  margin:-2px;
+  width: 30%;
+  background-color:yellow;
+}
+
+
 
 
 
@@ -51,13 +96,22 @@ h3 {
 */
 
 @media (min-width: 992px) {
-	#p1 {
-		width: 80%;
+	
+	.container {
+		width: 30%;
+		float: left;
 	}
 
-	#p2 { 
-		width: 150px;
-		height: 150px;
+	.topright1 { 
+		width: 30%;
+	 }	
+
+	 .topright2 { 
+		width: 30%;
+	 }	
+
+	 .topright3 { 
+		width: 30%;
 	 }	
 	
 }
@@ -66,29 +120,40 @@ h3 {
 */
 
 @media (min-width: 768px) and (max-width: 991px) {
-  #p1 {
-  	width: 50%;
+  	#container1 {
+	width: 45%;
+	float: left;
+	}
 
-  }
-  #p2 {
-  	width: 100px;
-  	height:100px;
+	#container2 {
+	width: 45%;
+	float: left;
+	}
 
-  }
+	#container3 {
+	width: 90%;
+	clear:both;
+	}
+  
 
 }
 
 /*Mobile version equal or less than 767px
 */
 
-@media (min-width: 992px) {
-	#p1 {
-		width: 80%;
+@media (max-width: 767px) {
+	
+	#container1 {
+	width: 100%;
+	clear:both;
 	}
 
-	#p2 { 
-		width: 150px;
-		height: 150px;
-	 }	
-	
-}
+	#container2 {
+	width: 100%;
+	clear:both;
+	}
+
+	#container3 {
+	width: 100%;
+	clear:both;
+	}
